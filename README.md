@@ -84,6 +84,9 @@ my_key_pair.pem: EC2 instance access credentials
 Ready for AWS EC2 deployment
 Security group and network configuration
 
+## 🚀 Live Demo
 
+[Click here to view the deployed To-Do App]
 
+🔗http://52.70.227.206:3000/
 
