@@ -15,6 +15,7 @@ This project documents the successful development and deployment of a full-stack
 ✅ Implemented monitoring and logging
 
 **Application Description**
+
 The To-Do List application is a modern, responsive web application that allows users to:
 
 Create, read, update, and delete tasks
@@ -24,6 +25,7 @@ Export task data
 Responsive design for mobile and desktop
 
 **Project Repository Structure**
+
 Based on the GitHub repository at github.com/jeevi1409/To-do-app, the project contains:
 
 To-do-app/
@@ -56,40 +58,32 @@ Responsive design with modern UI/UX
 Client-side functionality for task management
 API integration for backend communication
 
-**Backend (server.js)
-**
+
+**Backend (server.js)**
+
 Express.js REST API server
 SQLite database integration
 CORS configuration for cross-origin requests
 Complete CRUD operations for task management
 
-**Docker Configuration
-**
+**Docker Configuration**
+
 Dockerfile: Multi-stage build configuration
 docker-compose.yml: Development environment setup
 Optimized for production deployment
 
-**Kubernetes Deployment
-**
+**Kubernetes Deployment**
+
 k8s-deployment.yaml: Complete Kubernetes manifest
 Pod, Service, and Ingress configurations
 Production-ready orchestration setup
 
-**AWS Integration
-**
+**AWS Integration**
+
 my_key_pair.pem: EC2 instance access credentials
 Ready for AWS EC2 deployment
 Security group and network configuration
 
-**System Architecture Diagram
-**
-─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend      │    │   Backend API   │    │   Database      │
-│   (HTML/CSS/JS) │◄──►│   (Node.js)     │◄──►│   (SQLite)      │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         └───────────────────────┼───────────────────────┘
-                                 │
-                    ┌─────────────────┐
-                    │   Cloud Layer   │
-                    │ (AWS/K8s/Docker)│
+
+
+
