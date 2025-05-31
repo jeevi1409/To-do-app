@@ -29,14 +29,23 @@ Based on the GitHub repository at github.com/jeevi1409/To-do-app, the project co
 To-do-app/
 ├── public/
 │   └── index.html              # Frontend application
+
 ├── Dockerfile                  # Container configuration
+
 ├── docker-compose.yml          # Multi-container orchestration
+
 ├── k8s-deployment.yaml         # Kubernetes deployment manifest
+
 ├── my_key_pair.pem            # AWS EC2 key pair for deployment
+
 ├── package-lock.json          # Dependency lockfile
+
 ├── package.json               # Node.js dependencies and scripts
+
 ├── server.js                  # Backend API server
+
 └── tasks.db                   # SQLite database file
+
 File Analysis
 Frontend (public/index.html)
 
