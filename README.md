@@ -2,10 +2,15 @@ This project documents the successful development and deployment of a full-stack
 Key Achievements
 
 ✅ Developed a responsive full-stack web application
+
 ✅ Implemented RESTful API with database integration
+
 ✅ Containerized application using Docker
+
 ✅ Deployed to cloud infrastructure
+
 ✅ Established CI/CD pipeline
+
 ✅ Implemented monitoring and logging
 
 
