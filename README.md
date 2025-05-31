@@ -26,7 +26,9 @@ Responsive design for mobile and desktop
 
 Project Repository Structure
 Based on the GitHub repository at github.com/jeevi1409/To-do-app, the project contains:
+
 To-do-app/
+
 ├── public/
 │   └── index.html              # Frontend application
 
